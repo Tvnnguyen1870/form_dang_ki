@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1{
+            margin-bottom: 20px;
+        }
+
+        #describe{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THÊM SINH VIÊN</h1>
+    </header>
+
+    <form action="">
+        <table>
+            <tr>
+                <td>Họ Tên</td>
+                <td><input type="text" name="name" value="Tô Văn Nguyên"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">giới tính</label>
+                </td>
+                <td>
+                    <input id="male" name="Gender" type="radio" value="male">
+                    <label for="male">Nam</label>
+                    <input id="female" name="Gender" type="radio" value="female">
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Quê quán</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Bắc Ninh</option>
+                        <option value="">Hà Nội</option>
+                        <option value="">TP.HCM</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="địa chỉ" value=""></td></td>
+            </tr>
+            <tr >
+                <td>Sở thích</td>
+                <td>
+                    <label for="1">
+                        <input type="checkbox" name="Thể thao" id="1">
+                        Thể thao
+                    </label>
+                    <label for="2">
+                        <input type="checkbox" name=" Du lịch" id="2">
+                        Du lịch
+                    </label>
+                    <label for="3">
+                        <input type="checkbox" name="Phim ảnh" id="3">
+                        Phim ảnh
+                    </label>
+                    <label for="4">
+                        <input type="checkbox" name="Ẩm thực" id="4">
+                        Ẩm thực
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Màu yêu thích</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="abc@gamil.com"></td>
+            </tr>
+            <tr>
+                <td>Trang Facebook</td>
+                <td><input type="facebook"></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Lớp CNTT khóa 8</option>
+                        <option value="">Lớp CNTT khóa 9</option>
+                        <option value="">Lớp CNTT khóa 10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td><input type="text" name="text" placeholder="nhập tài khoản" ></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" name="password" placeholder="nhập mật khẩu"></td>
+            </tr>
+            <tr>
+                <td>Ảnh thẻ</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Mô tả</td>
+                <td><input id="describe" type="text" value="nhập nội dung vào đây!"></td>
+            </tr>
+            <tr>
+                <td><button>gửi</button></td>
+                <td><button>nhập lại</button></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+</body>
+</html>
